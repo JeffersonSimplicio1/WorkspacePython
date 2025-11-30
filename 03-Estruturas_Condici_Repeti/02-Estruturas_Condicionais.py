@@ -36,13 +36,13 @@ if(opcao == 1):
         print('Impossivel sacar o valor informado!')
 elif (opcao == 2):
     print('Imprimindo extrato!!')
-    print('O saldo da sua conta é: ', saldo)
+    print(f'O saldo da sua conta é {saldo}')
 elif(opcao == 3):
     valor = float(input('Informe o valor a ser depositado: '))
     if(valor > 0):
         print('Depositando valor!')
-        print('Valor depositado!\n' \
-        '     Obrigado por ser nosso cliente!')
+        print(f'Valor depositado!! \n  O novo valor da sua conta é {saldo + valor} \n    Obrigado por utilizar nossos serviços!')
+
     else:
         print('O valor informado é invalido')
 else:
