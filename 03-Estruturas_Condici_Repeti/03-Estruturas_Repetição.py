@@ -9,7 +9,7 @@ for letra in texto:
     if letra.upper() in VOGAIS:
         print(letra.upper(), end=" ")
 
-
+print()
 
 #FOR utilizando Range = função built-in do python, usada para produzir uma sequencia de numeros inteiros a partir de um inicio para um fim.
 

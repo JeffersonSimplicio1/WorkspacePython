@@ -4,9 +4,9 @@ def conta_vogais(texto):
     # Inicialize um contador para contar as vogais
     contador = 0
     # Iteramos pelos caracteres da string
-    for char in texto:
+    for letra in texto:
         # Verifique se o caractere atual é uma vogal e incremente o valor do contador
-        if char in vogais:
+        if letra in vogais:
             contador += 1
     return contador
 
