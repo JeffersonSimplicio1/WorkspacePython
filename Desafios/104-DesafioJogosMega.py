@@ -28,7 +28,7 @@ while tot< quant:
     jogos.append(lista[:])
     lista.clear()
     tot +=1
-print('-=' *3, f'Sorteando {quant} jogos' , '-='*3)
+print('-=' *5, f'Sorteando {quant} jogos' , '-='*5)
 print()
 
 for i , valor in enumerate (jogos):
