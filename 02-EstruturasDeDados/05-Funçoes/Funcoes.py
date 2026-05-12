@@ -64,7 +64,7 @@ def calcular(a,b,funcao):
 
 '''Escopo Local e escopo global
 
-Se a variavel estiver dentro da função ele é escopo local, se estiver fora da função (na raiz do programa) ele é escopo golbal
+Se a variavel estiver dentro da função ele é escopo local, se estiver fora da função (na raiz do programa) ele é escopo global
 '''
 
 salario = 2000 # variavel fora da função, ou seja, escopo global
