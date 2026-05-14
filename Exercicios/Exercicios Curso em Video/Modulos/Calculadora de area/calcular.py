@@ -1,27 +1,24 @@
+import math
+
 def area_quadrado (lado):
     resp = lado * lado
     return resp
 
-
-def area_triagulo (base,altura):
+def area_triangulo (base,altura):
     resp = (base * altura)/2
     return resp
 
-
 def area_circulo (raio):
-    resp = 3.14 * (raio * raio)
+    resp = math.pi * (raio * raio)
     return resp
-
 
 def area_retangulo (base, altura):
     resp = base * altura
     return resp
 
-
 def area_trapezio (base_a, base_b, altura):
     resp = ((base_a+base_b)*altura)/2
     return resp
-
 
 def area_losango (diag_g, diag_p):
     resp = (diag_g*diag_p)/2
@@ -34,13 +31,13 @@ def escolha (a):
     elif a == 2:
         base = float(input('Digite o valor da base do triangulo: '))
         altura = float(input('Digite a altura do triangulo: '))
-        print (f' A area do triangulo é: {area_triagulo(base, altura)}')
+        print (f' A area do triangulo é: {area_triangulo(base, altura)}')
     elif a ==3:
         raio = float(input('Digite o valor do raio do circulo: '))
         print (f' A area do circulo é: {area_circulo(raio)}')
     elif a == 4:
         base = float(input('Digite o valor da base do retangulo: '))
-        altura = float(input('Digite a altura do retangulo: '))
+        altura = float(input('Digite a altura do retângulo: '))
         print (f' A area do retangulo é:  {area_retangulo(base, altura)}')
     elif a == 5:
         base_maior = float(input('Digite o valor da base maior do trapezio: '))

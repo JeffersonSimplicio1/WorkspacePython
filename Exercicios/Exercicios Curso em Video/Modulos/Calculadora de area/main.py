@@ -10,7 +10,7 @@ decisao = int(input('selecione qual figura você deseja calcular a area:\n'
                     '3 - Circulo\n'
                     '4 - Retângulo\n'
                     '5 - Trapézio\n'
-                    '6 - Losangoz\n'
+                    '6 - Losango\n'
                     '->'))
 
 calcular.escolha(decisao)
