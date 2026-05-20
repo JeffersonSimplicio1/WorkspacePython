@@ -79,4 +79,6 @@ def escolha (a):
         elif a == 6:
             print(f'Finalizando programa!')
             exit()
-
+        else:
+            print('A opção inserida não esta disponivel no menu.\n    Finalizando programa!')
+            exit()
