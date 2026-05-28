@@ -33,7 +33,6 @@ def cadastrar():
 
     quadro_de_funcionarios.append(funcionario)
 
-
 def listar_funcionarios():
     if len(quadro_de_funcionarios) > 0:
         for i in quadro_de_funcionarios:
@@ -44,7 +43,6 @@ def listar_funcionarios():
     else:
         print(f'Não há funcionarios cadastrados!')
 
-
 def media_salarial():
     if len(quadro_de_funcionarios) > 0:
         media = sum(funcionario['salario']
@@ -53,7 +51,6 @@ def media_salarial():
 
     else:
         print(f'Não há funcionarios cadastrados!')
-
 
 def salario_alto():
     if len(quadro_de_funcionarios) > 0:
@@ -64,7 +61,6 @@ def salario_alto():
     else:
         print(f'Não há salarios cadastrados!')
 
-
 def salario_baixo():
     if len(quadro_de_funcionarios) > 0:
         menor = min(quadro_de_funcionarios, key=lambda funcionario: funcionario['salario'])
@@ -73,7 +69,6 @@ def salario_baixo():
 
     else:
         print(f'Não há salarios cadastrados!')
-
 
 def finalizar_programa():
     print(f'Finalizando programa!')
